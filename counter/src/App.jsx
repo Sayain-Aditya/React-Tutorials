@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -26,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="text-white">
       <h1>My {car.brand}</h1>
     <p>
         It is a {car.color} {car.model} from {car.year}
@@ -44,6 +42,7 @@ function App() {
         <br></br>
         <button onClick={removevalue}>Remove Value</button>
       </div>
+
     </>
   );
 }
